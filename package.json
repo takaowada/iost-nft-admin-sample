@@ -1,0 +1,50 @@
+{
+  "name": "iost-nft-sample",
+  "version": "0.1.0",
+  "description": "NFT sample for IOST",
+  "main": "index.js",
+  "repository": "https://github.com/takaowada/iost-nft-sample.git",
+  "author": "Takao Wada <takao.wada3@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint:eslint": "eslint --ext .ts ./src",
+    "lint:prettier": "prettier --check ./src",
+    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "fix:eslint": "eslint --fix ./src",
+    "fix:prettier": "prettier --write ./src",
+    "fix": "yarn fix:eslint && yarn fix:prettier"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.9",
+    "@mui/x-data-grid": "^5.17.24",
+    "iost": "^0.1.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.6",
+    "typescript": "*",
+    "vite": "^4.1.0"
+  }
+}
